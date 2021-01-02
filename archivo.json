@@ -1,0 +1,31 @@
+{
+    "skill": [
+        {
+            "titulo":"Programación FrontEnd",
+            "contenido":"Desarrollo con javascript, html5 y css3. Trabajo con framework principal Vue.js. Para estilos, Bootstrap y Vuetify",
+            "image":"/images/hexagono-html.svg"
+        },
+        {
+            "titulo":"Programación BackEnd",
+            "contenido":"Desarrollo con Node.js y express. Consumo de API rest e implementación del CRUD. Integración con base de datos relacionales (mysql y sqlite)",
+            "image":"/images/server.svg"
+        },
+        {
+            "titulo":"Desarrollo de Software",
+            "contenido":"Trabajo con Java, programación orientada a objetos. Conexión con base de datos relacionales (mysql y sqlite)",
+            "image":"/images/java.svg"
+        }
+    ],
+    "project":[
+        {
+            "titulo":"Aplicación Web para Implementación de Inbound Marketing",
+            "contenido":"Esta aplicación fue desarrollada como una propuesta para administrar los servicios ofrecidos por las empresas que ofrecen éste servicio. La página puede ser modificada por el usuario Administrador para mostrar los servicios que tiene disponible.",
+            "image":"/images/pic01.jpg"
+        },
+        { 
+            "titulo":"Api Rest para Administrar Usuarios y servicios",
+            "contenido":"Conexión con base de datos relacionales haciendo uso de Node.js. Las peticiones cuentan con un middleware para impedir que terceros no autorizados obtengan una respuesta.",
+            "image":"/images/pic01.jpg"
+        }
+    ]   
+}
