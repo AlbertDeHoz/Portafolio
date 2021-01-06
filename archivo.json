@@ -20,12 +20,12 @@
         {
             "titulo":"Aplicación Web para Implementación de Inbound Marketing",
             "contenido":"Esta aplicación fue desarrollada como una propuesta para administrar los servicios ofrecidos por las empresas que ofrecen éste servicio. La página puede ser modificada por el usuario Administrador para mostrar los servicios que tiene disponible.",
-            "image":"/images/pic01.jpg"
+            "image":"/images/landingPage.png"
         },
         { 
             "titulo":"Api Rest para Administrar Usuarios y servicios",
             "contenido":"Conexión con base de datos relacionales haciendo uso de Node.js. Las peticiones cuentan con un middleware para impedir que terceros no autorizados obtengan una respuesta.",
-            "image":"/images/pic01.jpg"
+            "image":"/images/backAdmin.png"
         }
     ]   
 }
