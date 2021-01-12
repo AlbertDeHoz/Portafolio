@@ -7,15 +7,15 @@ let project = new ProjectSection(url);
 //icons-footer sections
 let icon = [
     {
-        anchor:"#",
+        anchor:"https://www.youtube.com/channel/UCfJblDBuCsYJuWBjLmAesWA",
         image:"./images/socialNetwork/youtube.svg"
     },
     {
-        anchor:"#",
+        anchor:"https://github.com/AlbertDeHoz/",
         image:"./images/socialNetwork/github.svg"
     },
     {
-        anchor:"#",
+        anchor:"https://www.linkedin.com/in/AlbertDeHoz",
         image:"./images/socialNetwork/linked-in.svg"
     }
 
