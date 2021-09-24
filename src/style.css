@@ -1,1 +1,68 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+body{
+    background-color: #371f76;
+}
+.section.is-primary .title {
+    color: #fff ;
+}
+
+.section.is-primary .subtitle{
+    color: #fff ;
+}
+.skills, .projects
+{
+    background-color: #fff;
+    
+}
+
+.box {
+    margin-top: -7rem;
+    padding-bottom: 1rem;
+}
+
+.box .is-skill-icon{
+    width: 3rem;
+}
+
+.is-primary{
+    border-color: #371f76;
+    color: #371f76;
+}
+footer .title{
+    color:#ac94f4 !important;
+}
+.copyright{
+    color:#ac94f4; /*color: portage*/
+}
+
+.project-thumb{
+    border: 10px hidden;
+    border-radius: 10px;
+}
+
+.project-thumb:hover{
+    opacity: 0.1 !important;
+}
+.overlay{
+    background-color: #120632; 
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top:0px;
+    opacity: 0;
+    transition: 1s;
+    border: 10px hidden;
+    border-radius: 10px;
+    padding-top:16%;
+}
+
+.overlay .title{
+    color: white;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+.navbar-menu{
+    transition: 1s
+}

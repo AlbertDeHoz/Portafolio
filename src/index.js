@@ -6,3 +6,4 @@ burgerIcon.onclick = e => {
     e.preventDefault();
     navBarMenu.classList.toggle('is-active');
 }
+
