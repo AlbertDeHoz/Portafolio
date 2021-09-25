@@ -43,6 +43,9 @@ footer .title{
 .project-thumb:hover{
     opacity: 0.1 !important;
 }
+.project-grid{
+    margin-top: 3rem;
+}
 .overlay{
     background-color: #120632; 
     position:absolute;
@@ -65,4 +68,13 @@ footer .title{
 }
 .navbar-menu{
     transition: 1s
+}
+.skill_tools{
+    list-style-type: none !important;
+}
+
+.section.contact-me .box{
+    background-color: #120632;
+    padding-top: 3rem;
+    padding-bottom:3rem;
 }
