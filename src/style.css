@@ -71,10 +71,26 @@ footer .title{
 }
 .skill_tools{
     list-style-type: none !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
 }
 
 .section.contact-me .box{
     background-color: #120632;
     padding-top: 3rem;
     padding-bottom:3rem;
+    margin-top: -10rem;
+}
+.form.is-active{
+    display:initial;
+}
+.form{
+    display: none;
+}
+.section.is-medium.is-primary.has-text-centered.is-long{
+    margin-bottom: 3rem;
+}
+
+.section.projects{
+    padding-bottom: 10rem;
 }
