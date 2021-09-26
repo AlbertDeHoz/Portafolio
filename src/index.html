@@ -165,9 +165,10 @@
           </div>
         </div>
         <div class="columns is-centered">
-          <div class="column"><a class="button is-primary is-outlined is-rounded is-medium"
-              href="https://github.com/AlbertDeHoz"><span class="icon"><i class="fab fa-github"></i></span><span>Take a
-                look at my github</span></a></div>
+          <div class="column px-3"><a class="button is-primary is-outlined is-rounded is-medium"
+              href="https://github.com/AlbertDeHoz" target="_blank">
+              <span class="icon"><i class="fab fa-github"></i></span><span>Check out my github</span>
+            </a></div>
         </div>
     </div>
   </section>
@@ -182,27 +183,33 @@
           <div class="column level-item">
             <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
           </div>
-          <div class="column level-item"><a class="button is-primary is-outlined is-rounded is-medium"
-              href="/project-planner">Let's do this</a></div>
-        </div>
-        <div class="columns">
-          <div class="column field mx-6">
-            <label class="label">Name</label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Text input">
-            </div>
-          </div>
-          <div class="column field mx-6">
-            <label class="label">Name</label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Text input">
-            </div>
+          <div class="column level-item">
+            <button id="email-btn" class="button is-primary is-outlined is-rounded is-medium">Let's do this</button>
           </div>
         </div>
-        <div class="column field mx-6">
-          <label class="label">Message</label>
-          <div class="control">
-            <textarea class="textarea" placeholder="Textarea"></textarea>
+        <div id="email-container" class="form">
+          <div class="columns is-desktop is-centered">
+            <form class="column is-four-fifths-desktop "  onsubmit="console.log('hello');return false">
+              <div class="columns ">
+                <div class="column field">
+                  <label class="label">Name</label>
+                  <div class="control"><input class="input" type="text" name="" id="" placeholder="introduce your name"></div>
+                </div>
+                <div class="column">
+                  <label class="label">email</label>
+                  <div class="control"><input class="input" type="email" name="" id="" placeholder="introduce your email"></div>
+                </div>
+              </div>
+              <div class="columns field">
+                <div class="column">
+                  <label class="label">email</label>
+                  <div class="control"><textarea  class="textarea" placeholder="Content"></textarea></div>
+                </div>
+              </div>
+              <div class="column">
+                <button class="button is-warning">submit!</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -219,19 +226,19 @@
       </div>
       <div class="social-icons my-6">
         <p class="field">
-          <a class="button is-medium is-white is-outlined is-rounded mx-5" href="https://twitter.com"
+          <a class="button is-medium is-white is-outlined is-rounded mx-5 mb-3" href="https://twitter.com"
             target="_blank"><span class="icon is-small"><i class="fab fa-twitter fa-fw"></i></span></a>
-          <a class="button is-medium is-white is-outlined is-rounded mx-5" href="https://github.com/AlbertDeHoz"
+          <a class="button is-medium is-white is-outlined is-rounded mx-5  mb-3" href="https://github.com/AlbertDeHoz"
             target="_blank"><span class="icon is-small"><i class="fab fa-github fa-fw"></i></span></a>
-          <a class="button is-medium is-white is-outlined is-rounded mx-5"
-            href="https://www.linkedin.com/in/matthew-farley-32526014/" target="_blank"><span class="icon is-small"><i
+          <a class="button is-medium is-white is-outlined is-rounded mx-5  mb-3"
+            href="https://www.linkedin.com/in/albertdehoz/" target="_blank"><span class="icon is-small"><i
                 class="fab fa-linkedin-in fa-fw"></i></span></a>
-          <a class="button is-medium is-white is-outlined is-rounded mx-5" href="https://angel.co/mattfarley"
+          <a class="button is-medium is-white is-outlined is-rounded mx-5  mb-3" href="https://angel.co/mattfarley"
             target="_blank"><span class="icon is-small"><i class="fab fa-youtube fa-fw"></i></span></a>
-          <!-- <a class="button is-medium" href="/cdn-cgi/l/email-protection#6c010d18182c1c090208090d1a031e420f0301" target="_blank"><span class="icon is-small"><i class="far fa-envelope fa-fw"></i></span></a></p> -->
+          </p>
       </div>
       <div class="copyright my-6">Handcrafted by me<span class="icon has-white-text" style="vertical-align:middle;"><i
-            class="far fa-copyright"></i></span>twentytwenty</div>
+            class="far fa-copyright"></i></span>2021</div>
       <div class="made-by-bulma"><a href="https://bulma.io"><img
             src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31"></a>
       </div>
