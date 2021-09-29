@@ -1,119 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap" rel="stylesheet"> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/main.css">
-</head>
-<body>
-    <header>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="mw-25">
-            <a href="#">
-              <img src="./images/sign.svg"  height="30" alt="Responsive image">
-            </a>
-          </div>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav  nav justify-content-end">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">Sobre Mi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Habilidades">Habilidades</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Proyectos">Proyectos</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <!-- Navbar -->
-      
-        <!-- Background image -->
-        <div
-        class="text-center container-fluid p-0"
-        >
-        <div class="bg-image"></div>
-        <div class="bg-image__text">
-          <div class="text-white ">
-            <span><img class="p-n0 rounded-circle  border border-white"  height="150" src="images/perfil.jpg" alt="" /></span>
-            <div class="justify-content-center align-items-center pt-3">
-              <p class="py-0 my-0">Hola, Soy</p>
-              <h2 class="bg-image__name"><strong>Alberto Alonso</strong></h2>
-              <p class="mb-4">Este es mi <strong>Portafolio</strong>, una breve descripción de mi trabajo y de lo que me apasiona.</p>
-              <a 
-              href="#about"
-              class="btn btn-outline-light btn-lg m-2"
-              role="button"
-              rel="nofollow"
-              >
-              Esto es lo que hago</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Background image -->
-    </header>
-    <section class="my-5">
-      <section id="about" class='container  justify-content-center align-items-center px-5'>
-        <div class="my-3 py-3"><h3 class="text-center">Sobre Mi</h3></div>
-        <div class="card">
-          <div class="row about__container">
-            <div class="card-header col-lg-3 col-sm-12">
-              <div class="text-center mt-5">
-                <h5><em>ESTE SOY YO</em></h5>
-              </div>
-            </div>
-            <div class="card-body col-lg-8 col-sm-12 p-5">
-              <p class="card-text">Soy Alberto Alonso, programador y entusiasta de la tecnología. Me gusta trabajar el desarrollo de aplicaciones, sea web o software, aunque me dedico más a la primera. Estudié desarrollo de software en la Universidad Tecnológica de Pereira gracias al programa Misión TIC. Tambien soy Ingeniero mecánico de la Universidad del Atlántico. </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="Habilidades" class="container-fluid">
-        <div class="my-3 py-3"><h3 class="text-center">Habilidades</h3></div>
-        <div id="skill" class="row"></div>
-      </section>
-      <section id= "Proyectos" class="container">
-        <div class ="my-3 py-3" ><h3 class="text-center">Proyectos</h3></div>
-        <div id="project" class="row"></div>
-      </section>
-    </section>
-    <footer class="bg-dark text-white text-center text-lg-start">
-      <!-- Grid container -->
-      <div class="container p-3">
-        <!--<span id="icons" class="text-center"></span> -->
-        <div id="icons" class="text-center"></div>
-        
-        <div>
-          <!--Grid column-->
-          <div class="text-center pt-3">
-            <p class="py-0">
-              Este sitio fue enteramente desarrollado con html5, css3 (bootstrap 5) y javascript vanilla
-            </p>
-          </div>
-        </div>
-      </div>
-    
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2021 Copyright:
-        <Span>Alberto Alonso</span>
-      </div>
-      <!-- Copyright -->
-    </footer>
 
-    <script src="./assets/js/Main.js" type="module"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberto Alonso De la Hoz</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/jpg" href="assets/favicon/favicon.ico" />
+  <script src="https://kit.fontawesome.com/6193c335b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/"><img src="./assets/images/firmaDigital.png"
+            alt="Alberto Alonso | Web developer" height="48"></a>
+        <a class="navbar-burger" role="button" id="burger-icon">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="nav-links">
+        <div class="navbar-start"></div>
+        <div class="navbar-end">
+          <a class="navbar-item" href="#">Skills</a>
+          <a class="navbar-item" href="#">Projects</a>
+          <div class="navbar-item">
+            <button class="button is-primary is-outlined is-rounded" href="#">Contact me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Header -->
+  <header class="hero is-white has-text-centered">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column">
+            <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">Front-end Web Application Developer</h1>
+            <h2 class="subtitle is-size-4-desktop">Coding is my passion. I want to make a new better world by
+              developing simple things, day by day! </h2>
+            <img class="avatar" src="assets/images/profil_web.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <div class="container"><img class="is-bottom" src="assets/images/hero.svg"></div>
+    </div>
+  </header>
+  <!-- About me section -->
+  <section class="section is-medium is-primary has-text-centered is-long">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-three-fifths">
+          <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">Hi, I’m Alberto. Get know to me a little.</h1>
+          <h2 class="subtitle is-size-5-desktop">
+            I am a developer enthusiast but above all, I have a naturally curiosity. I am a web application developer and a lover of new technologies. I have worked in teams using scrum as agile methodology and thanks to this I have developed several applications as a team. Besides,I am a Linux lover and  I am a sportsman 4 hours per week, and a musician from time to time.<br/>
+            <span class="mt-6 icon is-long mb-4 px-5"><i class="fab fa-linux fa-fw"></i></span>
+            <span class="mt-6 icon is-long mb-4 px-5"><i class="fas fa-running fa-fw"></i></span>
+            <span class="mt-6 icon is-small mb-4 px-5"><i class="fas fa-laptop fa-lg"></i></span>
+            <span class="mt-6 icon is-small mb-4 px-5"><i class="fas fa-biking fa-fw"></i></span>
+            <span class="mt-6 icon is-small mb-4 px-5"><i class="fas fa-guitar fa-fw"></i></span>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skill section -->
+  <section class="section skills has-text-centered">
+    <div class="container is-narrow">
+      <div class="box ">
+        <div class="content mt-6">
+          <h2 class="title is-size-3"><span class="icon is-small mb-4"><i
+                class="fas fa-laptop-code fa-fw"></i></span><br />Frontend Web developer</h2>
+          <p>I enjoy working with some technologies listed below. The best I do is developing users interfaces but I
+            can build backend stuff by using node.js as well!</p>
+
+          <div class="image columns">
+            <div class="column">
+              <!-- <img src="assets/images/web_development.svg" class="is-skill-icon"> -->
+
+              <h3 class="subtitle is-size-4"><span class="icon is-small mb-4"><i
+                    class="fas fa-tools fa-fw"></i></span><br />Works environment and Lenguages </h3>
+              <ul class="skill_tools">
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Node.js</li>
+                <li>git</li>
+                <li>github</li>
+
+              </ul>
+            </div>
+            <div class="column">
+
+              <h3 class="subtitle is-size-4"> <span class="icon is-small mb-4"><i
+                    class="fas fa-book fa-fw"></i></span><br />Frameworks and Libraries</h3>
+              <ul class="skill_tools">
+                <li>React.js</li>
+                <li>Vue.js</li>
+                <li>Express.js</li>
+                <li>Bulma</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div class="column">
+
+              <h3 class="subtitle is-size-4"><span class="icon is-small mb-4"><i
+                    class="fas fa-database fa-fw"></i></span><br />Databases</h3>
+              <ul class="skill_tools">
+                <li>Mysql</li>
+                <li>Sqlite</li>
+                <li>MongoDb</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- projects -->
+  <section class="section projects is-medium is-white has-text-centered">
+    <div class="container is-narrow">
+      <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">My Recent Work</h1>
+      <h2 class="subtitle is-size-5-desktop">Here are a few design projects I've worked on recently.
+        <div class="project-grid">
+          <div class="columns is-multiline is-mobile">
+            <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+              <figure class="image is-3by2">
+                <img id="project-thumb" class="project-thumb" src="assets/images/sja.banner.png">
+                <figcaption class="overlay px-3">
+                  <h1 class="title is-size-5 is-size-4-widescreen">pqrsd management for the mayor's office of San Juan
+                    de Arama</h1>
+                  <a class="button is-primary is-outlined is-rounded" href="https://github.com/AlbertDeHoz/gestion-PQRSD-San-Juan-de-Arama/"
+                    target="_blank"><span>Visit project</span><span class="icon"><i
+                        class="fas fa-angle-right"></i></span></a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+              <figure class="image is-3by2">
+                <img id="project-thumb" class="project-thumb" src="assets/images/smt.banner.png">
+                <figcaption class="overlay px-3">
+                  <h1 class="title is-size-5 is-size-4-widescreen">Capacity control for St. Martin of Tours parish</h1>
+                  <a class="button is-primary is-outlined is-rounded" href="https://wfdesignbuild.com"
+                    target="_blank"><span>Visit Website</span><span class="icon"><i
+                        class="fas fa-angle-right"></i></span></a>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+              <figure class="image is-3by2"><img class="project-thumb" src="assets/images/js.banner.png">
+                <div class="overlay"></div>
+                <figcaption class="overlay px-3">
+                  <h1 class="title is-size-5 is-size-4-widescreen">TO DO app for task management using vanilla Javascript</h1>
+                  <a class="button is-primary is-outlined is-rounded" href="https://wfdesignbuild.com"
+                    target="_blank"><span>Visit Website</span><span class="icon"><i
+                        class="fas fa-angle-right"></i></span></a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column px-3"><a class="button is-primary is-outlined is-rounded is-medium"
+              href="https://github.com/AlbertDeHoz" target="_blank">
+              <span class="icon"><i class="fab fa-github"></i></span><span>Check out my github</span>
+            </a></div>
+        </div>
+    </div>
+  </section>
+  <!-- contact me -->
+  <section class="section contact-me is-primary has-text-centered">
+    <div class="container is-narrow">
+      <div class="box">
+        <div class="columns level">
+          <div class="column level-item">
+            <h1 class="title">Start a project</h1>
+          </div>
+          <div class="column level-item">
+            <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
+          </div>
+          <div class="column level-item">
+            <button id="email-btn" class="button is-primary is-outlined is-rounded is-medium">Let's do this</button>
+          </div>
+        </div>
+        <div id="email-container" class="form">
+          <div class="columns is-desktop is-centered">
+            <form id="email-form" target="_blank" action="https://formsubmit.co/cbeed3c52ebbb1aa30e4c46d83c55833" method="POST">
+              <div class="columns ">
+                <div class="column field">
+                  <label class="label">Name</label>
+                  <div class="control"><input class="input" type="text" name="name" placeholder="introduce your name"></div>
+                </div>
+                <div class="column">
+                  <label class="label">email</label>
+                  <div class="control"><input class="input" type="email" name="email" placeholder="Email Address"></div>
+                </div>
+              </div>
+              <div class="columns field">
+                <div class="column">
+                  <label class="label">email</label>
+                  <div class="control"><textarea  class="textarea" type="textarea" name="message" placeholder="Write your message!"></textarea></div>
+                </div>
+              </div>
+              <div class="column">
+                <button class="button is-warning">submit!</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="section is-primary is-small has-text-centered">
+    <div class="container is-narrow"><a class="logo" href="/"><img src="assets/images/logo.svg"
+          alt="Matt Farley | Designer, Front-end Developer &amp; Mentor" height="48"></a>
+      <div class="columns is-centered">
+        <div class="column is-one-third mt-6">
+          <h1 class="title is-size-4-touch">keep learning, improving one day at a time</h1>
+        </div>
+      </div>
+      <div class="social-icons my-6">
+        <p class="field">
+          <a class="button is-medium is-white is-outlined is-rounded mx-5 mb-3" href="https://twitter.com/AlbertDeHoz"
+            target="_blank"><span class="icon is-small"><i class="fab fa-twitter fa-fw"></i></span></a>
+          <a class="button is-medium is-white is-outlined is-rounded mx-5  mb-3" href="https://github.com/AlbertDeHoz"
+            target="_blank"><span class="icon is-small"><i class="fab fa-github fa-fw"></i></span></a>
+          <a class="button is-medium is-white is-outlined is-rounded mx-5  mb-3"
+            href="https://www.linkedin.com/in/albertdehoz/" target="_blank"><span class="icon is-small"><i
+                class="fab fa-linkedin-in fa-fw"></i></span></a>
+          <a class="button is-medium is-white is-outlined is-rounded mx-5  mb-3" href="https://www.youtube.com/channel/UCfJblDBuCsYJuWBjLmAesWA"
+            target="_blank"><span class="icon is-small"><i class="fab fa-youtube fa-fw"></i></span></a>
+          </p>
+      </div>
+      <div class="copyright my-6">Handcrafted by me<span class="icon has-white-text" style="vertical-align:middle;"><i
+            class="far fa-copyright"></i></span>2021</div>
+      <div class="made-by-bulma"><a href="https://bulma.io"><img
+            src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
 </body>
+
 </html>
