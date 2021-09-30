@@ -17,8 +17,7 @@
   <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/"><img src="./assets/images/firmaDigital.png"
-            alt="Alberto Alonso | Web developer" height="48"></a>
+        <a class="navbar-item" href="/"><img src="./assets/images/brand_logo.svg"alt="Alberto Alonso | Web developer"></a>
         <a class="navbar-burger" role="button" id="burger-icon">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -28,10 +27,10 @@
       <div class="navbar-menu" id="nav-links">
         <div class="navbar-start"></div>
         <div class="navbar-end">
-          <a class="navbar-item" href="#">Skills</a>
-          <a class="navbar-item" href="#">Projects</a>
+          <a class="navbar-item" href="#skills">Skills</a>
+          <a class="navbar-item" href="#projects">Projects</a>
           <div class="navbar-item">
-            <button class="button is-primary is-outlined is-rounded" href="#">Contact me</button>
+            <a class="button is-primary is-outlined is-rounded" href="#contact-me">Contact me</a>
           </div>
         </div>
       </div>
@@ -74,7 +73,7 @@
     </div>
   </section>
   <!-- Skill section -->
-  <section class="section skills has-text-centered">
+  <section id="skills" class="section skills has-text-centered">
     <div class="container is-narrow">
       <div class="box ">
         <div class="content mt-6">
@@ -125,8 +124,9 @@
         </div>
       </div>
   </section>
+
   <!-- projects -->
-  <section class="section projects is-medium is-white has-text-centered">
+  <section id="projects" class="section projects is-medium is-white has-text-centered">
     <div class="container is-narrow">
       <h1 class="title is-spaced is-size-3-desktop is-size-4-mobile">My Recent Work</h1>
       <h2 class="subtitle is-size-5-desktop">Here are a few design projects I've worked on recently.
@@ -149,7 +149,7 @@
                 <img id="project-thumb" class="project-thumb" src="assets/images/smt.banner.png">
                 <figcaption class="overlay px-3">
                   <h1 class="title is-size-5 is-size-4-widescreen">Capacity control for St. Martin of Tours parish</h1>
-                  <a class="button is-primary is-outlined is-rounded" href="https://wfdesignbuild.com"
+                  <a class="button is-primary is-outlined is-rounded" href="https://elegant-roentgen-ff0293.netlify.app/"
                     target="_blank"><span>Visit Website</span><span class="icon"><i
                         class="fas fa-angle-right"></i></span></a>
                 </figcaption>
@@ -161,7 +161,7 @@
                 <div class="overlay"></div>
                 <figcaption class="overlay px-3">
                   <h1 class="title is-size-5 is-size-4-widescreen">TO DO app for task management using vanilla Javascript</h1>
-                  <a class="button is-primary is-outlined is-rounded" href="https://wfdesignbuild.com"
+                  <a class="button is-primary is-outlined is-rounded" href="https://github.com/AlbertDeHoz/JS-TodoList"
                     target="_blank"><span>Visit Website</span><span class="icon"><i
                         class="fas fa-angle-right"></i></span></a>
                 </figcaption>
@@ -178,7 +178,7 @@
     </div>
   </section>
   <!-- contact me -->
-  <section class="section contact-me is-primary has-text-centered">
+  <section id="contact-me"class="section contact-me is-primary has-text-centered">
     <div class="container is-narrow">
       <div class="box">
         <div class="columns level">
@@ -186,7 +186,7 @@
             <h1 class="title">Start a project</h1>
           </div>
           <div class="column level-item">
-            <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
+            <p class="has-text-grey-lighter">Interested in contacting me. Let me know, I'll be happy to start a conversation!</p>
           </div>
           <div class="column level-item">
             <button id="email-btn" class="button is-primary is-outlined is-rounded is-medium">Let's do this</button>
@@ -197,22 +197,22 @@
             <form id="email-form" target="_blank" action="https://formsubmit.co/cbeed3c52ebbb1aa30e4c46d83c55833" method="POST">
               <div class="columns ">
                 <div class="column field">
-                  <label class="label">Name</label>
+                  <label class="label has-text-left has-text-grey-lighter">Name</label>
                   <div class="control"><input class="input" type="text" name="name" placeholder="introduce your name"></div>
                 </div>
                 <div class="column">
-                  <label class="label">email</label>
+                  <label class="label has-text-left has-text-grey-lighter">Email</label>
                   <div class="control"><input class="input" type="email" name="email" placeholder="Email Address"></div>
                 </div>
               </div>
               <div class="columns field">
                 <div class="column">
-                  <label class="label">email</label>
+                  <label class="label  has-text-left has-text-grey-lighter">Message</label>
                   <div class="control"><textarea  class="textarea" type="textarea" name="message" placeholder="Write your message!"></textarea></div>
                 </div>
               </div>
               <div class="column">
-                <button class="button is-warning">submit!</button>
+                <button class="button is-warning is-rounded">submit!</button>
               </div>
             </form>
           </div>
@@ -242,8 +242,8 @@
             target="_blank"><span class="icon is-small"><i class="fab fa-youtube fa-fw"></i></span></a>
           </p>
       </div>
-      <div class="copyright my-6">Handcrafted by me<span class="icon has-white-text" style="vertical-align:middle;"><i
-            class="far fa-copyright"></i></span>2021</div>
+      <div class="copyright my-6">this portfolio is developed by me. However, the web design is not my own idea but Matt Farley's. Take a look at his <a href="https://mattfarley.ca" target="_blank">portfolio</a></div>
+            
       <div class="made-by-bulma"><a href="https://bulma.io"><img
             src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31"></a>
       </div>
