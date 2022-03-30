@@ -1,4 +1,9 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+:root {
+    --clr-white: #ebebeb;
+    --clr-primary: #371f76; 
+}
+
 body{
     background-color: #371f76;
 }
@@ -93,4 +98,32 @@ footer .title{
 
 .section.projects{
     padding-bottom: 10rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: clamp(1rem,3vw,3rem);
+}
+
+.social-icon__button {
+    display: inline-grid;
+    place-content: center;
+    width: 3rem;
+    aspect-ratio: 1;
+    outline:1px solid var(--clr-white);
+    border-radius: 50%;
+    transition: ease-in-out 100ms transform;
+}
+
+.social-icon__button:hover {
+    transform: scale(1.05);
+}
+
+.social-icons .fab,.fa-brands  {
+    color: var(--clr-white);
+    font-size: 1.5rem;
+
 }
