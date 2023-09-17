@@ -1,0 +1,11 @@
+{
+    "EN":{
+        "title": "Hi! I'm %value, A Software developer and open source enthusiast."
+    },
+    "ES": {
+        "title": "Hola! Soy %value, Un desarrollador de software y un entusiasta del código abierto."
+    },
+    "FR": {
+        "title": "Bonjour, je m'appelle %value, je suis développeur de logiciels et passionné d'open source."
+    }
+}

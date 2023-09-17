@@ -1,5 +1,38 @@
-# Portfolio
-Hi, I am Alberto Alonso and in this repo I want to share with you portfolio's code. I am a  web developer focused in user interface. However, this web page design is not mine. It is strongly inspired by [Matt Farley](https://mattfarley.ca/). I hope, in the future, to give it my personal, by now, that's all there is.
+# create-svelte
 
-## Dependencies
-This web portfolio is developed using basic web technologies, html, css and javascript. Besides, Bulma css Frameworks is used.
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+
+## Creating a project
+
+If you're seeing this, you've probably already done this step. Congrats!
+
+```bash
+# create a new project in the current directory
+npm create svelte@latest
+
+# create a new project in my-app
+npm create svelte@latest my-app
+```
+
+## Developing
+
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
