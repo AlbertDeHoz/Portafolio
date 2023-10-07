@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Todo React App",
+        "description": "todo_react_app_description",
+        "url": "https://albertdehoz.github.io/todo-react-typescript/",
+        "repository": "https://github.com/AlbertDeHoz/todo-react-typescript",
+        "tools": ["react", "typescript"],
+        "image": "todo-react"
+
+    },
+    {
+        "name": "Tic-Tac-Vue",
+        "description": "tic_tac_vue_description",
+        "url": "https://brave-kirch-0bb5a0.netlify.app/",
+        "repository": "https://github.com/AlbertDeHoz/front-vue-exercise",
+        "tools": ["vue", "javascript", "vite"],
+        "image": "tic-tac-vue"
+    },
+    {
+        "name": "TODOjs",
+        "description": "todojs_description",
+        "url": "https://github.com/AlbertDeHoz/JS-TodoList",
+        "repository": "https://github.com/AlbertDeHoz/JS-TodoList",
+        "image": "todo-js"
+    }
+]

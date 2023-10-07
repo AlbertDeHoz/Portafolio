@@ -1,0 +1,62 @@
+[
+    {
+        "name": "React",
+        "icon_name": "devicon-react-original",
+        "color": "cyan"
+    },
+    {
+        "name": "Svelte",
+        "icon_name": "devicon-svelte-plain",
+        "color": "orange"
+    },
+    {
+        "name": "Storybook",
+        "icon_name": "devicon-storybook-plain",
+        "color": "pink"
+    },
+    {
+        "name": "javascript",
+        "icon_name": "devicon-javascript-plain",
+        "color": "yellow"
+    },
+    {
+        "name": "typescript",
+        "icon_name": "devicon-typescript-plain",
+        "color": "blue"
+    },
+    {
+        "name": "MySQL",
+        "icon_name": "devicon-mysql-plain",
+        "color": "indigo"
+    },
+    {
+        "name": "flutter",
+        "icon_name": "devicon-flutter-plain",
+        "color": "cyan"
+    },
+    {
+        "name": "MongoDB",
+        "icon_name": "devicon-mongodb-plain",
+        "color": "green"
+    },
+    {
+        "name": "python",
+        "icon_name": "devicon-python-plain",
+        "color": "yellow"
+    },
+    {
+        "name": "Linux",
+        "icon_name": "devicon-linux-plain",
+        "color": "gray"
+    },
+    {
+        "name": "Bash",
+        "icon_name": "devicon-bash-plain",
+        "color": "gray"
+    },
+    {
+        "name": "Flask",
+        "icon_name": "devicon-flask-plain",
+        "color": "gray"
+    }
+]

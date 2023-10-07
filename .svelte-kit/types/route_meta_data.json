@@ -1,0 +1,7 @@
+{
+	"/": [],
+	"/[[lang]]": [
+		"src/routes/[[lang]]/+layout.server.ts",
+		"src/routes/[[lang]]/+layout.server.ts"
+	]
+}

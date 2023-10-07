@@ -1,0 +1,189 @@
+{
+  "EN": {
+    "general": {
+      "title": "Hi! I'm",
+      "subtitle": "A Software developer and open source enthusiast.",
+      "goto_page": "Go to the page",
+      "goto_repo": "Go to the repo"
+    },
+    "experience": {
+      "title": "Experience",
+      "frontend": {
+        "title": "Frontend Developer",
+        "resources": [
+          "Developed reusable React components and libraries, improving code maintainability and accelerating UI development.",
+          "Collaborated with UI/UX designers to ensure seamless integration of components into various projects.",
+          "Conducted code reviews and maintained a high standard of code quality and consistency.",
+          "Contributed to performance optimization efforts, resulting in faster rendering and improved user experience."
+        ]
+      },
+      "backend": {
+        "title": "API Developer",
+        "resources": [
+          "Designed and developed RESTful APIs using Flask, facilitating efficient communication between frontend and backend systems.",
+          "Collaborated closely with frontend and backend teams to define API endpoints, data structures, and authentication mechanisms.",
+          "Conducted testing, identified and resolved bugs, and improved API reliability."
+        ]
+      },
+      "automation": {
+        "title": "Automation Engineer",
+        "resources": [
+          "Managed Linux-based, overseeing system configuration, software installations, updates, and monitoring.",
+          "Developed and maintained Bash scripts for automation, significantly reducing manual tasks and enhancing operational efficiency."
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "todo_react_app_description": "Save and track your TODOs",
+      "tic_tac_vue_description": "Play the classic game 'Tic-Tac-Toe' with one or two players",
+      "todojs_description": "Yet another TODOs, but using vanilla js instead"
+    },
+    "summary": {
+      "title": "That's me, in a nutshell",
+      "parragraph": "I like to create, test new technologies, break Linux stuff and find a way to fix it, and automate processes just to make my life easier (lazier 😬). I enjoy biking, running outdoors, playing guitar, and playing with microcontrollers."
+    },
+    "tools": {
+      "title": "Works Tool"
+    },
+    "skills": {
+      "title": "Skills",
+      "0": "Maintenance and implementation of new features for apps developed with flutter",
+      "1": "Translating design mockups into responsive, pixel-perfect user interfaces.",
+      "2": "Contributing to the deployment process, ensuring the smooth integration of React libraries into multiple projects using tools like Webpack, npm, and yarn."
+    },
+    "footer": {
+        "social_medias": [
+            "𝕏",
+            "linkedin",
+            "github"
+        ],
+        "footerprint": "This site was built with svelte"
+    }
+  },
+  "ES": {
+    "general": {
+      "title": "Hola! Soy",
+      "subtitle": " Un desarrollador de software y un entusiasta del código abierto.",
+      "goto_page": "Ir a la página",
+      "goto_repo": "Ver en el repositorio"
+    },
+    "experience": {
+      "title": "Experiencia",
+      "frontend": {
+        "title": "Desarrollador Frontend",
+        "resources": [
+          "He desarrollado componentes y librerías en React, mejorando la mantenibilidad del código y acelerando el desarrollo UI",
+          "He colaborado con los diseñadores UI/UX para asegurar una integración fluida de componentes en proyectos varios.",
+          "He realizado revisión y mantenido altos estándares de calidad y de consistencia de código",
+          "He contribuido a las iniciativas de optimización de rendimiento, resultando en renderizados más rápidos y mejorando la experiencia de usuario"
+        ]
+      },
+      "backend": {
+        "title": "Desarrollodor de APIs",
+        "resources": [
+          "He diseñado y desarrollado RESTful API usando Flask, facilitando la comunicación entre el frontend y el backend",
+          "He trabajado muy de cerca con equipos frontend y backend para definir los endpoints de APIs, la estructura de datos y los mecanismos de autenticación",
+          "He realizado test automatizados, identicado y resuelto bugs, y mejorado la confiabilidad de la API"
+        ]
+      },
+      "automation": {
+        "title": "Automation Engineer",
+        "resources": [
+          "He manejado sistemas basados en Linux, atentiendo a la configuración, la instalación de software, actualizaciones y monitoreo del sistema",
+          "He desarrollado Bash scripts para automatización, reduciendo significativamente las tareas manuales y mejorando la eficiencia operacional"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Proyectos",
+      "todo_react_app_description": "Guarda y haz seguimiento de tus tareas",
+      "tic_tac_vue_description": "Juega el clásico 'tres en línea' sólo o con dos jugadores",
+      "todojs_description": "Otro TODOs más, pero esta vez, con javascript vanilla"
+    },
+    "summary": {
+      "title": "Yo, en pocas palabras",
+      "parragraph": "Me gusta crear, probar nuevas tecnologías, romper cosas de Linux y encontrar una forma de repararlas, y automatizar procesos sólo para hacer mi vida más fácil (perezosa 😬). Me gusta mucho manejar bicleta, salir a correr, tocar la guitarra y jugar con microcontroladores."
+    },
+    "tools": {
+      "title": "Herramientas de trabajo"
+    },
+    "skills": {
+      "title": "Habilidades",
+      "0": "Mantenimiento e implementación de nuevas funcionalidades para aplicaciones desarrolladas en flutter",
+      "1": "Traducir los bocetos en interfaces de usuario responsivas y precisas",
+      "2": "Contribuir con el proceso de desarrollo y asegurar la integración de React en multiples proyectos utilizando herramientas como Webpack, npm, and yarn"
+    },
+    "footer": {
+        "social_medias": [
+            "𝕏",
+            "linkedin",
+            "github"
+        ],
+        "footerprint": "Está página ha sido creada con Svelte"
+    }
+  },
+  "FR": {
+    "general": {
+      "title": "Bonjour, je m'appelle",
+      "subtitle": "je suis développeur de logiciels et passionné d'open source.",
+      "goto_page": "Aller sur la page",
+      "goto_repo": "Aller au repo"
+    },
+    "experience": {
+      "title": "Expérience",
+      "frontend": {
+        "title": "Développeur Frontend",
+        "resources": [
+          "J'ai développé des composants et des bibliothèques en React, améliorant la maintenabilité du code et accélérant le développement de l'interface utilisateur.",
+          "J'ai collaboré avec des designers UI/UX pour assurer une intégration harmonieuse des composants dans divers projets.",
+          "J'ai examiné et maintenu des normes élevées de qualité et de cohérence du code.",
+          "J'ai contribué à des initiatives d'optimisation des performances, ce qui a permis d'obtenir des rendus plus rapides et d'améliorer l'expérience des utilisateurs."
+        ]
+      },
+      "backend": {
+        "title": "Développeur API",
+        "resources": [
+          "J'ai conçu et développé des APIs RESTful en utilisant Flask, facilitant la communication entre le frontend et le backend.",
+          "J'ai travaillé en étroite collaboration avec les équipes Frontend et Backend pour définir les points de terminaison de l'API, la structure des données et les mécanismes d'authentification.",
+          "J'ai effectué des tests automatisés, identifié et résolu des bogues, et amélioré la fiabilité de l'API."
+        ]
+      },
+      "automation": {
+        "title": "Ingénieur d'Automatisation",
+        "resources": [
+          "J'ai géré des systèmes basés sur Linux, en m'occupant de la configuration, de l'installation de logiciels, des mises à niveau et de la surveillance du système.",
+          "J'ai développé des scripts Bash pour l'automatisation, réduisant considérablement les tâches manuelles et améliorant l'efficacité opérationnelle."
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projets",
+      "todo_react_app_description": "Enregistrer vos tâches et en assurer le suivi",
+      "tic_tac_vue_description": "Jouez au classique tic-tac-toe seul ou avec un(e) ami(e)",
+      "todojs_description": "encore un autre TODO mais en utilisant vanilla js à la place"
+    },
+    "summary": {
+      "title": "Moi, en un mot",
+      "parragraph": "I like to create, test new technologies, break Linux stuff and find a way to fix it, and automate processes just to make my life easier (lazier ). I enjoy biking, running outdoors, playing guitar, and playing with microcontrollers.",
+      "parragraph": "J'aime développer, tester de nouvelles technologies, casser des choses sous Linux et trouver des moyens de les réparer, et automatiser des processus pour me faciliter la vie (être plus paresseux 😬). J'aime bien faire du vélo, courir dehors, jouer de la guitare et jouer avec des microcontrôlleurs."
+    },
+    "tools": {
+      "title": "Outils de travail"
+    },
+    "skills": {
+      "title": "Competénces",
+      "0": "Maintenance et mise en œuvre de nouvelles fonctionnalités pour les applications développées dans Flutter.",
+      "1": "Traduire les croquis en interfaces utilisateur responsives et précises",
+      "2": "Contribuer au processus de développement et assurer l'intégration de React dans plusieurs projets en utilisant des outils tels que Webpack, npm et yarn."
+    },
+    "footer": {
+        "social_medias": [
+            "𝕏",
+            "linkedin",
+            "github"
+        ],
+        "footerprint": "Cette page a été créée avec Svelte"
+    }
+  }
+}
