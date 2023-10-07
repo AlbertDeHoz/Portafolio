@@ -299,5 +299,6 @@ npm-debug.log
 yarn-error.log
 
 # lib
+.svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,python,vscode,vim,node,vuejs
