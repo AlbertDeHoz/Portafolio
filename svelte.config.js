@@ -6,7 +6,8 @@ const config = {
 		adapter: adapter({
                     edge: false,
                     split: true
-                })
+                }),
+		outDir: "build"
 	}
 };
 
