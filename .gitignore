@@ -55,7 +55,6 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
 
 # Dependency directories
 node_modules/
@@ -139,7 +138,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
 develop-eggs/
 dist/
 downloads/
@@ -162,6 +160,7 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+.netlify
 
 # Installer logs
 pip-log.txt
@@ -299,6 +298,5 @@ npm-debug.log
 yarn-error.log
 
 # lib
-.svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,python,vscode,vim,node,vuejs
