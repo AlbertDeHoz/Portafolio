@@ -7,7 +7,6 @@ const config = {
                     edge: false,
                     split: true
                 }),
-		outDir: "build"
 	}
 };
 
