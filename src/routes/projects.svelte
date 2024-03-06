@@ -3,7 +3,7 @@
 
     import image_todo_js from "$lib/images/js.banner.png";
     import image_todo_react from "$lib/images/todo-react-typescript.png";
-    import image_tic_tac_vue from "$lib/images/smt.banner.png";
+    import image_tic_tac_vue from "$lib/images/tic-tac-toe.jpg";
     import { getContext } from "svelte";
 
     const translate = getContext("translate");

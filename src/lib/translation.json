@@ -25,6 +25,14 @@
           "Conducted testing, identified and resolved bugs, and improved API reliability."
         ]
       },
+      "mobile": {
+        "title": "Mobile Developer",
+        "resources": [
+          "Developed cross-platform mobile applications using the Flutter framework, leveraging its widgets, layouts and state management features.",
+          "Expertise in integrating RESTful APIs into Flutter applications, handling asynchronous operations, and error handling.",
+          "Experienced in debugging Flutter applications using tools like Flutter DevTools."
+        ]
+      },
       "automation": {
         "title": "Automation Engineer",
         "resources": [
@@ -87,6 +95,14 @@
           "He realizado test automatizados, identicado y resuelto bugs, y mejorado la confiabilidad de la API"
         ]
       },
+      "mobile": {
+        "title": "Desarrollador Móvil",
+        "resources": [
+          "Desarrollo de aplicaciones móviles multiplataforma utilizando Flutter, aprovechando sus widget y manejo de estados.",
+          "Experiencia en la integración de API RESTful en aplicaciones Flutter, manejo de operaciones asíncronas y manejo de errores.",
+          "Experiencia en depuración de aplicaciones en Flutter utilizando Flutter DevTools."
+        ]
+      },
       "automation": {
         "title": "Automation Engineer",
         "resources": [
@@ -147,6 +163,14 @@
           "J'ai conçu et développé des APIs RESTful en utilisant Flask, facilitant la communication entre le frontend et le backend.",
           "J'ai travaillé en étroite collaboration avec les équipes Frontend et Backend pour définir les points de terminaison de l'API, la structure des données et les mécanismes d'authentification.",
           "J'ai effectué des tests automatisés, identifié et résolu des bogues, et amélioré la fiabilité de l'API."
+        ]
+      },
+      "mobile": {
+        "title": "Développment d'applications mobiles",
+        "resources": [
+          "Développement d'applications mobiles multiplateformes à l'aide de Flutter, en tirant parti de sa gestion des widgets et des statuts.",
+          "Expertise dans l'intégration des API RESTful dans les applications Flutter, la gestion des opérations asynchrones et la gestion des erreurs.",
+          "Expérimenté dans le débogage d'applications Flutter en utilisant des outils comme Flutter DevTools."
         ]
       },
       "automation": {
