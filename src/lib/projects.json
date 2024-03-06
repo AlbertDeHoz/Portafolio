@@ -15,12 +15,5 @@
         "repository": "https://github.com/AlbertDeHoz/front-vue-exercise",
         "tools": ["vue", "javascript", "vite"],
         "image": "tic-tac-vue"
-    },
-    {
-        "name": "TODOjs",
-        "description": "todojs_description",
-        "url": "https://github.com/AlbertDeHoz/JS-TodoList",
-        "repository": "https://github.com/AlbertDeHoz/JS-TodoList",
-        "image": "todo-js"
     }
 ]
