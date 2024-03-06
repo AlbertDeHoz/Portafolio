@@ -25,6 +25,14 @@
             </ul>
         </section>
         <section class="experience_item">
+            <h3>{translate("experience.mobile.title")}</h3>
+            <ul>
+                {#each translate("experience.mobile.resources") as item}
+                    <li>{item}</li>
+                {/each}
+            </ul>
+        </section>
+        <section class="experience_item">
             <h3>{translate("experience.automation.title")}</h3>
             <ul>
                 {#each translate("experience.automation.resources") as item}
